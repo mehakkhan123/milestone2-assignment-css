@@ -499,3 +499,106 @@ header{
   font-size: 24px;
   line-height: 32px;
 }
+
+/* about */
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+.about h1{
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #6b7280;
+  max-width: 1322px;
+}
+
+@media (min-width: 1024px) {
+  .about h1 {
+      font-size:36px;
+      line-height:40px;
+  }
+}
+
+.about p{
+  text-align: center;
+  max-width: 1322px;
+  padding-top: 20px;
+}
+
+.courses{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.courses h1{
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #6b7280;
+}
+
+@media (min-width: 1024px) {
+  .courses h1 {
+      font-size: 36px;
+      line-height: 40px;
+  }
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 28px;
+  max-width: 1322px;
+}
+
+@media (min-width: 1024px) {
+  .images {
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+}
+
+.image{
+  object-fit: contain;
+  border: 1px solid #94a3b8;
+  cursor: pointer;
+  max-width: 200px;
+}
+
+@media (min-width: 768px) {
+  .image {
+      max-width: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .image {
+      max-width: 400px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .image {
+      max-width: 500px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .image {
+      max-width: 600px;
+  }
+}
